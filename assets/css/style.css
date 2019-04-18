@@ -1,0 +1,277 @@
+/* Navbar */
+.c-floatingNav {
+  box-shadow: 0px 1px 10px #999;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Logo */
+.logo {
+  box-shadow: 0px 0px 4px -2px;
+}
+
+.mt-100px {
+  margin-top: 100px;
+}
+
+.c-search {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.c-search button {
+  border: 1px solid #ced4da;
+}
+
+/* Newest, answered, unanswerd button */
+
+.c-buttons a {
+  background: linear-gradient(to left, rgb(40, 123, 156), green, rgb(233, 61, 61));
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 30%;
+  margin-right: 5%;
+  text-align: center;
+}
+.c-buttons a:last-child {
+  margin-right: 0%;
+}
+.c-buttons a:hover {
+  background: linear-gradient(to right, rgb(39, 128, 163), green, rgb(230, 44, 44));
+  font-weight: bold;
+}
+
+/* buttons end */
+
+
+/* Content */
+
+.c-main-content {
+  background: #f5f5f5;
+}
+
+.c-ans-number {
+  border: 1px solid #a2d0b1;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 20px;
+  color: green;
+  border-radius: 5px;
+}
+
+.c-content-left {
+  background: white;
+  padding: 1em;
+  margin-bottom: 10px;
+}
+
+/* content end */
+
+
+/* Tag */
+
+.c-tags a {
+  background-color: rgb(233, 233, 233);
+  color: rgb(66, 66, 66);
+  padding: 4px 6px;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* tag end */
+
+
+/* Total question, answer, reply, member */
+
+[class*='c-total-'] {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.c-total-questions {
+  background: #04a704;
+}
+.c-total-answers {
+  background: #acaf0e;
+}
+.c-total-comments {
+  background: #1a916f;
+}
+.c-total-members {
+  background: #2187b6;
+}
+
+/* total end */
+
+
+/* Ask question button */
+
+.c-btn-ask-question {
+  width: 96%;
+  margin: auto;
+  padding: 10px 10px !important;
+  font: bold 25px arial, helvetica, sans-serif;
+}
+
+/* ask question button end */
+
+
+/* Button */
+
+[class*='c-btn-'] {
+  background-color: #ddd;
+  color: #555;
+  text-align: center;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  border: 1px solid #bbb;
+  text-decoration: none !important;
+  background-clip: padding-box;
+  overflow: visible;
+  white-space: nowrap;
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+  transition: background-color .2s ease-out;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+}
+
+[class*='c-btn-']:active {
+  position: relative;
+  top: 1px;
+  text-shadow: none;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset;
+}
+
+[class*='c-btn-']:hover{
+  background-color: #eee;
+  color: #555;
+}
+
+/* button end */
+
+
+/* Bold border */
+
+.c-bold-border {
+  border-top: 10px solid yellow;
+  background: #f5f5f5;
+}
+
+/* bold border end */
+
+
+/* Scroll Top button */
+
+.scroll-Top {
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 5px 0px;
+  box-shadow: 0px 1px 2px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: linear-gradient(to top, rgb(255, 0, 64), black, rgb(253, 0, 42));
+  color: #ffffff;
+}
+
+/* scroll top button end */
+
+
+
+/* Question */
+
+.question-title {
+  text-decoration: none!important;
+  color: rgb(1, 10, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.question-title:hover {
+  color: rgb(1, 10, 0);
+  border-bottom: 1px solid #b8b8b8;
+}
+
+/* question end */
+
+
+/* Question description */
+
+.ques-des-sec {
+  background: white;
+  padding: 12px 15px 3px 15px;
+}
+
+.ques-des-sec h5 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.ques-des-sec p {
+  margin-top: 5px;
+  background: #f5f5f5;
+  padding: 10px;
+  text-align: justify;
+}
+
+/* question description end */
+
+
+.show-answer p {
+  margin-top: 10px;
+  padding: 0;
+}
+
+
+/* Search box */
+
+.search-suggetion {
+  position: absolute;
+  z-index: 1;
+  background: #ffffff;
+  max-height: 200px;
+  left: 0;
+  right: 0;
+  margin: 0px 16px;
+  box-shadow: 0px 1px 2px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.search-suggetion ul {
+  list-style: none;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.search-suggetion ul li {
+  margin-bottom: 5px;
+}
+
+.search-suggetion ul li:last-child {
+  margin-bottom: 0;
+}
+
+.search-suggetion ul li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* search end */
+
+
